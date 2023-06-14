@@ -1,0 +1,17 @@
+.box-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile{
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vh;
+  height: max-content;
+}
+
+.name{
+  padding-top: 50px;
+}

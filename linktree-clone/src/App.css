@@ -1,0 +1,73 @@
+.App {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  height: 100%;
+  overflow-y: hidden;
+}
+/* Style for the Sidebar */
+.Sidebar {
+  width: 68px;
+  background-color: #252A34;
+/*  width: 150px;  Adjust this value as per your requirements */
+}
+
+/* Style for the Navbar and Forms */
+.navbar {
+  margin-left: 0px;
+  background-image: url(https://i.redd.it/qwd83nc4xxf41.jpg);
+  
+  background-color: #EAEAEA;
+  
+
+}
+
+/* Style for the PhoneUi */
+.phoneui {
+  margin-left: 2px;
+  height: 100vh;
+  background-color: #f1eded;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+
+/* Style for the inner components */
+.SideNavBar {
+  padding: 0px;
+  /* Add styles specific to the SideNavBar component */
+}
+
+Forms {
+  padding: 0px;
+  /* Add styles specific to the Forms component */
+}
+
+.nav1{
+  margin: 0;
+  padding: 0px;
+  /* Add styles specific to the ButtonAppBar component */
+}
+
+PhoneUi {
+  padding: 0px;
+  /* Add styles specific to the PhoneUi component */
+}
+
+
+
+@media (max-width: 668px) {
+  .App {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+  }
+  .Sidebar {
+    width: 100%;
+    height: auto;
+  }
+  .navbar {
+    padding: 10px 0;
+  }
+  .phoneui {
+    height: auto;
+  }
+}
